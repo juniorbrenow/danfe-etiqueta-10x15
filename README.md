@@ -1,4 +1,4 @@
-# web_app.py - DANFE Etiqueta 10x15cm (Código de Barras CORRIGIDO - VERSÃO SIMPLIFICADA)
+#  - DANFE Etiqueta 10x15cm 
 from flask import Flask, render_template_string, request, send_file, jsonify
 import xml.etree.ElementTree as ET
 from reportlab.lib.pagesizes import mm
